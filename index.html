@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<!--
+Võ Lê Tiến Đạt - 08
+12A12
+-->
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Web Của Tôi</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+      header {
+        background-color: #0eb0d8;
+        color: white;
+        padding: 15px 0;
+        margin-top: 0;
+        text-align: center;
+      }
+      nav {
+        background-color: #8fda03;
+        position: sticky;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        padding: 10px 0;
+
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        margin: 0 20px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+      }
+      nav ul li a:hover {
+        background-color: #57575721;
+        border-radius: 5px;
+      }
+      .search-container {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 500px;
+      }
+      .search-container input {
+        width: 100%;
+        padding: 10px 15px;
+        border: 2px solid #0eb0d8;
+        border-radius: 5px 10 0 5px;
+        font-size: 16px;
+      }
+      .search-container button {
+        padding: 10px 15px;
+        border: none;
+        background-color: #3d3d3dbd;
+        color: white;
+        font-size: 16px;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+      }
+
+      main {
+        padding: 20px;
+        text-align: center;
+      }
+      footer {
+        background-color: #0eb0d8;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        bottom: 0;
+        width: 100%;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      th, td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #17dffa;
+      }
+      th {
+        background-color: #91ff00d2;
+      }
+      tr:nth-child(even) {
+        background-color: #ffffffe5;
+      }
+      tr:hover {
+        background-color: #7db3264b;
+      }
+    </style>
+  </head>
+  <body id="home">
+    <header>
+      <h1>Chào mừng đến với DPN AUTO !</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#home">Trang Chủ</a></li>
+        <li><a href="#intro">Giới Thiệu</a></li>
+        <li><a href="#ser">Giá Bán</a></li>
+        <li><a href="#info">Liên Hệ</a></li>
+      </ul>
+    </nav>
+    <!--<div class="search-container">
+      <input type="text" placeholder="tìm kiếm..." />
+      <button>Tìm</button>
+    </div>-->
+    <main>
+      <h2>DPN AUTO</h2>
+      <p style="font-size: 18px">
+        Nơi chuyên phân phối ô tô, phụ tùng ô tô chính hãng số #1 VN.
+      </p>
+      <div
+      style="
+      display: block;
+      padding: 10px;
+      align-items: flex-start;
+      max-width: 100%;
+      text-align: left;
+      background-color: #ffae0091;
+      margin-bottom: 5px;
+      border-radius: 20px;">
+        <p>
+- DPN Auto là một trong những nhà phân phối ô tô hàng đầu tại Việt Nam, với hơn 10 năm kinh nghiệm trong ngành, chúng tôi luôn tự hào là đối tác tin cậy của các khách hàng đang tìm kiếm những chiếc xe ô tô chất lượng cao với mức giá hợp lý. Tại DPN Auto, chúng tôi cung cấp một loạt các dòng xe, từ xe hơi phổ thông, xe gia đình đến những mẫu xe sang trọng, đáp ứng đa dạng nhu cầu sử dụng của khách hàng. Mỗi chiếc xe tại DPN Auto đều được lựa chọn kỹ càng, đảm bảo về chất lượng và độ bền, mang lại sự an tâm tối đa cho người sử dụng.
+        </p>
+        <p>
+          - Chúng tôi luôn nỗ lực cung cấp những sản phẩm ô tô tốt nhất với giá cả hợp lý, phù hợp với túi tiền của nhiều đối tượng khách hàng. DPN Auto hiểu rằng mỗi người tiêu dùng đều có những yêu cầu riêng biệt về chiếc xe của mình, vì vậy chúng tôi cung cấp các dòng xe đa dạng về kiểu dáng, mẫu mã và tính năng, giúp khách hàng dễ dàng lựa chọn phương tiện di chuyển phù hợp nhất.</p>
+                  <p>
+                    - Bên cạnh đó, chúng tôi còn cung cấp dịch vụ hỗ trợ tư vấn chuyên nghiệp, giúp khách hàng đưa ra quyết định mua xe một cách thông minh và tiết kiệm nhất. Đội ngũ nhân viên của DPN Auto luôn sẵn sàng lắng nghe và tư vấn về các dòng xe, các chương trình khuyến mãi, bảo hành và bảo dưỡng, đảm bảo rằng khách hàng sẽ nhận được những dịch vụ tốt nhất từ chúng tôi.</p>
+                    <p>
+                      - Ngoài ra, chúng tôi cam kết cung cấp dịch vụ hậu mãi tận tâm, đảm bảo khách hàng luôn nhận được sự hỗ trợ chu đáo ngay cả sau khi mua xe. Với DPN Auto, bạn không chỉ mua được những chiếc xe chất lượng mà còn trải nghiệm được sự hài lòng từ dịch vụ chăm sóc khách hàng tận tâm. DPN Auto – nơi bạn có thể tìm thấy chiếc xe mơ ước với giá cả hợp lý và dịch vụ hoàn hảo!</p>
+        
+      </div>
+      <h2 id="intro">Giới Thiệu Các Mẫu Xe Có Tại DPN Auto</h2>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          max-width: 100%;
+          padding: 10px;
+          align-items: flex-start;
+        "
+      >
+        <div
+          style="
+            word-wrap: break-word;
+            padding: 5px 10px;
+            align-content: center;
+            background-color: rgba(255, 241, 114, 0.521);
+            border-radius: 10px;
+            width: 48%;
+          "
+        >
+          <h3>Các Mẫu Xe Quốc Dân</h3>
+          <li style="padding: 1px; text-align: left">Toyota</li>
+          <p style="padding: 1px; text-align: left">
+            Đã từ rất lâu, Toyota đã trở thành thương hiệu nổi tiếng tại các
+            nước phát triển thế giới. Người tiêu dùng đón nhận Toyota bởi sự đa
+            dạng về mẫu mã và chất lượng của sản phẩm. Hiện tại, nếu nhắc đến
+            dòng xe ô tô có độ bền, giá hợp lý bạn không thể bỏ qua những dòng
+            xe nổi tiếng của Toyota như Toyota Vios, Toyota Corolla Altis,
+            Toyota Camry,...
+          </p>
+          <img
+            src="https://www.aozoom.com.vn/storage/uploads/content/images/Toyota-la-mau-xe-quoc-dan-gia-re-chat-luong-tot.jpg"
+            alt="Chưa cập nhật ảnh"
+            width="400"
+          />
+          <p>
+            - Toyota Vios: Không chỉ là "mẫu xe quốc dân" mà Toyota Vios còn
+            được mệnh danh là "thánh giữ giá" bởi xe có độ bền cao và ít hư hỏng
+            nên khả năng giữ giá gần như vô đối tại Việt Nam. Bên cạnh đó, thiết
+            kế vỏ ngoài khỏe khoắn, trẻ trung, hiện đại cùng nội thất trau chuốt
+            với các phần kết hợp hài hòa với nhau tạo nên một tổng thể vừa mắt
+            đa số người dùng, từ già đến trẻ, từ phụ nữ đến nam giới.
+          </p>
+          <p>
+            - Toyota Camry: Mẫu xe sedan hạng D rất được ưa chuộng, là mẫu xe
+            sang giá cả bình dân đối với nhiều cá nhân hoặc các doanh nhân nhỏ
+            thành đạt. Toyota Camry là dòng xe cho những ai muốn mua ô tô với
+            thiết kế không bị lỗi thời. Ngoài ra, xe còn có độ bền cao, ít hỏng
+            vặt và đặc biệt linh kiện cũng dễ thay thế.
+          </p>
+          <p>
+            - Toyota Corolla Altis: Toyota Corolla Altis nổi bật với diện mạo
+            trẻ trung, năng động cùng hàng loạt tiện nghi. Là một chiếc sedan
+            hạng C danh tiếng, với động cơ và độ bền vượt trội cũng như giá
+            thành hợp túi tiền của người dùng.
+          </p>
+          <li style="padding: 1px; text-align: left">Huyndai</li>
+          <li style="padding: 1px; text-align: left">Honda</li>
+        </div>
+        <div
+          style="
+            word-wrap: break-word;
+            padding: 5px 10px;
+            align-content: center;
+            background-color: rgba(255, 241, 114, 0.521);
+            border-radius: 10px;
+            width: 48%;
+          "
+        >
+          <h3>Các Mẫu Xe Sang</h3>
+          <li style="padding: 1px; text-align: left">Mercedes-Benz</li>
+          <p style="padding: 1px; text-align: left">
+            Nếu sự lựa chọn của bạn là một chiếc S-Class thông thường vẫn được
+            cho là quá "thông dụng" với bạn thì Mercedes Maybach S650 có thể là
+            câu trả lời thuyết phục hơn dành cho bạn. Không chỉ là “cái tên" đại
+            diện cho các dòng xe hơi cao cấp hàng đầu Thế giới, Mercedes Maybach
+            S650 còn có trang bị nội thất thậm chí xa xỉ hơn hầu hết các mẫu máy
+            bay cá nhân hiện nay trên thế giới.
+          </p>
+          <img
+            src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXfNJjtntyD6tTbWZk7928WyeyDmVN68B_nk09VEaM3oLrLrYB4hcf2uim0aAWuGOEbO47Laz-L56faNiZ2sg32zz2oIr_j0kv-vjfxfacidKtzDkNsTeiK2525Mom-mNGWo7z6zeEPwjWYSRStkCNa9kfdy?key=rpyGZ_9kGx4duDE76p7lHQ"
+            alt="Chưa cập nhật ảnh"
+            width="400"
+          />
+          <p>
+            - Mercedes Benz là một trong các hãng xe hơi sang trọng được ưa
+            chuộng nhất tại thị trường Việt Nam. Nếu bạn đi trên đường thì hầu
+            như chúng ta sẽ thường bắt gặp logo ngôi sao 3 cánh của hãng xe này.
+            Không chỉ về thiết kế và trang thiết bị sang trọng, hiện đại, mà xe
+            còn là biểu tượng cho sự thành công với slogan “the best or
+            nothing”, nghĩa là chỉ có “tốt nhất hoặc không có gì”
+          </p>
+          <p>
+            - Hãng Mercedes có trụ sở chính tại Stuttgart nước Đức. Hiện đã có
+            nhà máy lắp ráp và sản xuất ô tô tại Việt Nam với phụ tùng và linh
+            kiện nhập khẩu từ Đức.
+          </p>
+          <p>
+            - Các mẫu xe được bán phổ biến tại Việt Nam từ các loại xe du lịch 5
+            chỗ, xe mini-buyt 16 chỗ, xe buyt nội thành và du lịch như: GLA,
+            GLC, GLS, GLE, C-Class, E-Class, S-Class long, Maybach , G-Class,
+            V-Class, CLA với mức giá từ 1,5 tỷ đồng trở lên
+          </p>
+          <li style="padding: 1px; text-align: left">Land Rover</li>
+          <li style="padding: 1px; text-align: left">Lexus</li>
+        </div>
+      </div>
+      <div>
+        <h2 id ="ser">Bảng so sánh giá xe</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Sản Phẩm</th>
+                <th>Giá</th>
+                <th>Mô Tả</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Mercedes-Benz GLC</td>
+                <td>2.800.000 VND</td>
+                <td>Mất giá s1</td>
+              </tr>
+              <tr>
+                <td>Toyota Camry</td>
+                <td>1.500.000 VND</td>
+                <td>Ko nên mua</td>
+              </tr>
+              <tr>
+                <td>Vinfast VF-8 Lux</td>
+                <td>1.170.000 VND</td>
+                <td>Hàng VN chất lượng cao</td>
+              </tr>
+            </tbody>
+          </table>
+      
+      </div>
+    </main>
+    <footer>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          max-width: 100%;
+          padding: 10px;
+          align-items: flex-start;
+        "
+      >
+      <div
+          style="
+            word-wrap: break-word;
+            padding: 5px 300px;
+            align-content: center;
+            text-align: left;
+            font-size: 20px;
+            border-radius: 10px;
+            width: 35%;
+          "
+        >
+        <p>Tên: Võ Lê Tiến Đạt</p>
+        <p>Mã Số: 08</p>
+        <p>Lớp: 12A12</p>
+      </div>
+      <div
+          style="
+            word-wrap: break-word;
+            padding: 5px 300px;
+            align-content: center;
+            text-align: right;
+            font-size: 20px;
+            border-radius: 10px;
+            width: 35%;
+          "
+        >
+        <p>Trường: THPT Trần Phú</p>
+        <p>TP.HCM</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Thpttranphu-logo.png" alt="Gặp lỗi" width="50">
+        </div>
+      </div>
+      <p id="info">&copy; Copyright 2024 . DPN AUTO</p>
+    </footer>
+  </body>
+</html>
